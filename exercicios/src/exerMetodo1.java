@@ -15,7 +15,7 @@ public class exerMetodo1 {
 	}
 	
 	}
-	
+
 	public static void imprimeVerao() {
 		System.out.println("é verão");
 		System.out.println("e está quente");
