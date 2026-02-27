@@ -1,1 +1,6 @@
 /.metadata
+*.lock
+exercicio-de-revisao/src/.metadata/.mylyn/.taskListIndex/segments_1
+/exercicio-de-revisao/src/.metadata/.plugins/org.eclipse.buildship.core/gradle
+/exercicio-de-revisao/src/.metadata/.plugins/org.eclipse.core.resources/.history/4f
+/exercicio-de-revisao/src/.metadata/.plugins/org.eclipse.core.resources
