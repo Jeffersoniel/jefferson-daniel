@@ -13,14 +13,14 @@ public class exerMetodo3
 		exibirNumeros(numInicial);
 	}
 	
-	public static void exibirNumeros (int numero)
+	public static void exibirNumeros(int numero)
 	{
-		System.out.println("Número inicial: " + numero);
+	    System.out.println("Número inicial: " + numero);
 	    System.out.println("Os 20 números seguintes são:");
-	   
-	    for (int i = 0; i <= 20; i++)	{
-	    System.out.print((numero + i) + " ");
+
+	    for (int contador = 1; contador <= 20; contador++) {
+	        System.out.print((numero + contador) + " ");
 	    }
 	}
+	  
 }
-
