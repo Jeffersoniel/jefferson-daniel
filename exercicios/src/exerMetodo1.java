@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
-public class exerMetodo1 {
+public class exerMetodo1 
+{
 	
 	public static void main(String[] args) {
 	Scanner input = new Scanner(System.in);

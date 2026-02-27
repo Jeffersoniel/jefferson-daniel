@@ -1,9 +1,10 @@
 import java.util.Scanner;
 
-public class exerMetodo2 {
+public class exerMetodo2 
+{
 
-	public static void main(String[] args) 
-	 {
+public static void main(String[] args) 
+{
 	
 	Scanner input = new Scanner(System.in);
 	System.out.println("Insira o Nome do(a) colega: ");
@@ -14,15 +15,19 @@ public class exerMetodo2 {
 		
 		else if (nome.equalsIgnoreCase("Maria")) {
 			amigaMaria();	}
-	}
+}
 	
 	
-	public static void amigoJoao() {
-		System.out.println("é verão");
-		System.out.println("e está quente");
+	public static void amigoJoao() 
+	{
+		System.out.println("O nome dele é João");
+		System.out.println("Tem 20 anos");
+		System.out.println("É estudante de Desenvolvimento de sistemas");
 	}
-	public static void amigaMaria() {
-		System.out.println("é inverno");
-		System.out.println("e está frio");
+	public static void amigaMaria() 
+	{
+		System.out.println("O nome dela é Maria");
+		System.out.println("Tem 20 anos");
+		System.out.println("É estudante de Desenvolvimento de sistemas");
 	}
 }
