@@ -19,9 +19,9 @@ public class ExemploPOO {
 		v2.cor = "preto";
 		
 		if (v1.velMax > v2.velMax) {
-			System.out.println("O"+v1.modelo+"é mais rápido");
+			System.out.println("O"+v1.modelo+" é mais rápido");
 		} else {
-			System.out.println("O"+v2.modelo+"é mais rápido");
+			System.out.println("O "+v2.modelo+" é mais rápido");
 		}
 	}
 
