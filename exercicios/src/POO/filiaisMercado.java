@@ -10,8 +10,18 @@ public class filiaisMercado {
 		
 		bnu.macaAno = 12000;
 		bnu.precomaca = 12.00;
-		bnu.laranjaAno = 14000;
+		bnu.laranjaAno = 12000;
 		bnu.precolaranja = 12.50;
+		
+		join.macaAno = 12500;
+		join.precomaca = 13.00;
+		join.laranjaAno = 14000;
+		join.precolaranja = 13.00;
+		
+		floripa.macaAno = 13000;
+		floripa.precomaca = 14.00;
+		floripa.laranjaAno = 13000;
+		floripa.precolaranja = 14.00;
 	}
 
 }
