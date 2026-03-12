@@ -1,12 +1,12 @@
-package POO;
+package mercadoExerDois;
 
 public class mercado {
 
 	String nome;
 	int macaAno;
-	double precomaca;
+	double precoMaca;
 	int laranjaAno;
-	double precolaranja;
+	double precoLaranja;
 	
 }
 

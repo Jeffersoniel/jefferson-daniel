@@ -1,4 +1,4 @@
-package POO;
+package pessoasExerUm;
 
 public class definicao {
 
