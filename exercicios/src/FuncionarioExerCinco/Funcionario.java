@@ -6,11 +6,15 @@ public class Funcionario {
 	String nome;
 	String sobrenome;
 	double salario;
-	double porcentagem;
 	
-public void salAumento(){
+	public void salFinal(double aumento) {
 	
-	salario = salario + (salario*porcentagem)/100;
-	
+		double porcentagem = aumento /100;
+		double salFinal = salario + (salario*porcentagem);
+		salario = salFinal;
+	}
+	public double salAnual() {
+		return salario * 12;
+		
 	}
 }
