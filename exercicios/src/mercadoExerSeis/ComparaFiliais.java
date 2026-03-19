@@ -29,29 +29,30 @@ public class ComparaFiliais {
 		mercado listaMercados[] = { bnu, join, floripa };
 
 		double maiorReceitaMaca = 0;
-		mercado mercadoMaiorReceitaMacas =  listaMercados[0];
+		mercado mercadoMaiorReceitaMacas = listaMercados[0];
 
 		for (int i = 0; i < listaMercados.length; i++) {
-			
+
 			if (listaMercados[i].obterReceitaMacas() > maiorReceitaMaca) {
 				maiorReceitaMaca = listaMercados[i].obterReceitaMacas();
 				mercadoMaiorReceitaMacas = listaMercados[i];
-				
+
 			}
 		}
 		System.out.println(mercadoMaiorReceitaMacas.nome);
-		
+
 		double menorReceitaLaranja = Double.MAX_VALUE;
-		mercado mercadoMenorReceitaLaranja= listaMercados[0];
-		
-		for (int i=0; i <listaMercados.length; i++) {
+		mercado mercadoMenorReceitaLaranja = listaMercados[0];
+
+		for (int i = 0; i < listaMercados.length; i++) {
 			if (listaMercados[i].obterReceitaLaranja() > menorReceitaLaranja) {
 				menorReceitaLaranja = listaMercados[i].obterReceitaLaranja();
-				 mercadoMenorReceitaLaranja = listaMercados[i];
-				
-		}
+				mercadoMenorReceitaLaranja = listaMercados[i];
+
+			}
 		}
 		System.out.println(mercadoMenorReceitaLaranja.nome);
-	}	
+		}
+	
+	
 }
-
