@@ -9,11 +9,13 @@ public class mercado {
 	double precoLaranja;
 	double total;
 
-
-public double total(){
-	
-	return total = (macaAno*precoMaca) + (laranjaAno*precoLaranja);
-
-	
-}
+	public double obterReceitaMacas() {
+		return macaAno *  precoMaca;
+	}
+	public double obterReceitaLaranja() {
+		return laranjaAno *  precoLaranja;
+	}
+	public double obterReceitaAll() {
+		return obterReceitaMacas() * obterReceitaLaranja();
+	}
 }
