@@ -7,8 +7,22 @@ public class mercado {
 	double precoMaca;
 	int laranjaAno;
 	double precoLaranja;
-	double total;
+	
 
+public mercado(String nome, int macaAno, double precoMaca, int laranjaAno, double precoLaranja) {
+	super();
+	this.nome = nome;
+	this.macaAno = macaAno;
+	this.precoMaca = precoMaca;
+	this.laranjaAno = laranjaAno;
+	this.precoLaranja = precoLaranja;
+
+	}
+	@Override
+public String toString() {
+	return "mercado [nome=" + nome + ", macaAno=" + macaAno + ", precoMaca=" + precoMaca + ", laranjaAno=" + laranjaAno
+			+ ", precoLaranja=" + precoLaranja + "]";
+}
 	public double obterReceitaMacas() {
 		return macaAno *  precoMaca;
 	}
@@ -17,5 +31,5 @@ public class mercado {
 	}
 	public double obterReceitaAll() {
 		return obterReceitaMacas() * obterReceitaLaranja();
-	}
+	    
 }

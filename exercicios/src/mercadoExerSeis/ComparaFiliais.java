@@ -4,27 +4,9 @@ public class ComparaFiliais {
 
 	public static void main(String[] args) {
 
-		mercado bnu = new mercado();
-		mercado join = new mercado();
-		mercado floripa = new mercado();
-
-		bnu.nome = "Bistek";
-		bnu.macaAno = 12000;
-		bnu.precoMaca = 12.00;
-		bnu.laranjaAno = 12000;
-		bnu.precoLaranja = 12.50;
-
-		join.nome = "Angeloni";
-		join.macaAno = 13000;
-		join.precoMaca = 13.00;
-		join.laranjaAno = 13000;
-		join.precoLaranja = 13.50;
-
-		floripa.nome = "Fort";
-		floripa.macaAno = 14000;
-		floripa.precoMaca = 14.00;
-		floripa.laranjaAno = 14000;
-		floripa.precoLaranja = 14.50;
+		mercado bnu = new mercado ("Giassi", 500, 87, 400, 925);
+		mercado join = new mercado ("Angeloni", 450, 81, 425, 825);
+		mercado floripa = new mercado ("Bistek", 550, 83, 450, 725);
 
 		mercado listaMercados[] = { bnu, join, floripa };
 
@@ -39,7 +21,7 @@ public class ComparaFiliais {
 
 			}
 		}
-		System.out.println(mercadoMaiorReceitaMacas.nome);
+		System.out.println(mercadoMaiorReceitaMacas);
 
 		double menorReceitaLaranja = Double.MAX_VALUE;
 		mercado mercadoMenorReceitaLaranja = listaMercados[0];
@@ -51,8 +33,11 @@ public class ComparaFiliais {
 
 			}
 		}
-		System.out.println(mercadoMenorReceitaLaranja.nome);
+		System.out.println(mercadoMenorReceitaLaranja);
+		
+		
 		}
 	
-	
 }
+	
+
