@@ -21,15 +21,19 @@ public mercado(String nome, int macaAno, double precoMaca, int laranjaAno, doubl
 	@Override
 public String toString() {
 	return "mercado [nome=" + nome + ", macaAno=" + macaAno + ", precoMaca=" + precoMaca + ", laranjaAno=" + laranjaAno
-			+ ", precoLaranja=" + precoLaranja + "]";
-}
+			+ ", precoLaranja=" + precoLaranja + "]";}
+
 	public double obterReceitaMacas() {
 		return macaAno *  precoMaca;
 	}
+	
 	public double obterReceitaLaranja() {
 		return laranjaAno *  precoLaranja;
 	}
+	
 	public double obterReceitaAll() {
 		return obterReceitaMacas() * obterReceitaLaranja();
-	    
+		}
 }
+
+
