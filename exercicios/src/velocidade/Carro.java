@@ -20,16 +20,16 @@ public class Carro {
 	}
 
 	public void acelerar(int valor) {
-		if (valor < 0 || valor >= 20) {
+		if (valor < 0 || valor > 20) {
 			throw new IllegalArgumentException("Valor inválido para acelerar (0 a 19)");
 		}
-		setVelocidade(velocidade + valor);
+		setVelocidade(this.velocidade + valor);
 	}
 
 	public void reduzir(int valor) {
-		if (valor <= 0 || valor > 30) {
+		if (valor < 0 || valor > 30) {
 			throw new IllegalArgumentException("Valor inválido para reduzir (0 a 29)");
 		}
-		setVelocidade(velocidade - valor);
+		setVelocidade(this.velocidade - valor);
 	}
 }
