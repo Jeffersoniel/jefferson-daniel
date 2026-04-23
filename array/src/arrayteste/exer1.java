@@ -52,4 +52,3 @@ public class exer1 {
 		System.out.println(media/testeLista.size());
 		}
 	}
-
