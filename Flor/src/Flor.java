@@ -4,8 +4,8 @@ public class Flor {
 	private String flor;
 	private double valor;
 	private String nome;
-	
-	public Flor(String flor, double valor,String nome) {
+
+	public Flor(String flor, double valor, String nome) {
 		setFlor(flor);
 		setNome(nome);
 		setValor(valor);
@@ -16,9 +16,9 @@ public class Flor {
 	}
 
 	public void setFlor(String flor) {
-		if (flor == null || flor.isBlank()){
+		if (flor == null || flor.isBlank()) {
 			throw new IllegalArgumentException("Flor inválida");
-	}
+		}
 		this.flor = flor;
 	}
 
@@ -27,7 +27,7 @@ public class Flor {
 	}
 
 	public void setValor(double valor) {
-		if(valor <=0) {
+		if (valor <= 0) {
 			throw new IllegalArgumentException("Valor inválido");
 		}
 		this.valor = valor;
@@ -43,6 +43,5 @@ public class Flor {
 		}
 		this.nome = nome;
 	}
-	
-	
+
 }
