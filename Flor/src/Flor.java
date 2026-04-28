@@ -44,4 +44,9 @@ public class Flor {
 		this.nome = nome;
 	}
 
+	@Override
+	public String toString() {
+		return "Flor [flor=" + flor + ", valor=" + valor + ", nome=" + nome + "]";
+	}
+
 }
