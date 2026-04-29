@@ -12,7 +12,7 @@ public class Main {
 		sistema.atualizaAlunos(a2);
 		sistema.atualizaAlunos(a3);
 		
-		System.out.println(sistema.ObterListaDeAlunos);
+		System.out.println(sistema.ObterListaDeAlunos("Jefferson"));
 	}
 		
 }

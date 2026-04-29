@@ -16,7 +16,9 @@ public List<AlunoObjeto> obterAlunoObjetos(){
 public List<AlunoObjeto>ObterListaDeAlunos(String aluno) {
 	List<AlunoObjeto>resultado = new ArrayList<>();
 	for (AlunoObjeto a : listaAlunos) {
-		if 
+		if (a.getAluno().equals(aluno)) {
+			resultado.add(a);
+		}
 		}
 	
 	return resultado;
