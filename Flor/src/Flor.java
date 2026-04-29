@@ -46,7 +46,7 @@ public class Flor {
 
 	@Override
 	public String toString() {
-		return "Flor [flor=" + flor + ", valor=" + valor + ", nome=" + nome + "]";
+		return "Flor [flor=" + flor + ", valor=" + valor + ", nome=" + nome + "]\n";
 	}
 
 }
