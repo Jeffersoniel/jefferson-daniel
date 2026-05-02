@@ -12,7 +12,7 @@ public class Main {
 		sistema.adicionar(a2);
 		sistema.adicionar(a3);
 		
-		System.out.println(sistema.ObterListaDeAlunos("Jefferson"));
+		System.out.println(sistema.ObterListaDeAlunos("Guilherme"));
 	}
 		
 }
