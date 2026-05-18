@@ -1,5 +1,4 @@
 import java.util.List;
-
 public class Produtos {
     public static void main(String[] args) {
 
@@ -13,16 +12,10 @@ public class Produtos {
         gerenciador.cadastrar(p2);
         gerenciador.cadastrar(p3);
 
-        System.out.println("--- BUSCA POR MARCA ---");
-        System.out.println("Mais caro da Tigre: " + gerenciador.obterMaisCaroDaMarca("Tigre"));
-
-        System.out.println("\n--- FILTRADOS (Tigre entre 5 e 15) ---");
         List<Loja> filtrados = gerenciador.filtrarPorPreco("Tigre", 5.0, 15.0);
         for (Loja p : filtrados) {
             System.out.println(p);
         }
-
-        System.out.println("\n--- TESTE DE ESTOQUE ---");
         System.out.println("Estoque inicial: " + p1.getQuantidade());
         p1.vender(20);
         System.out.println("Estoque após venda de 20: " + p1.getQuantidade());
