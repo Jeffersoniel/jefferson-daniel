@@ -14,7 +14,6 @@ public class VendasFinanciada {
 		garagem.adicionarCarro(c3);
 		garagem.adicionarCarro(c4);
 
-		System.out.println("--- Carro mais caro do estoque ---");
 		System.out.println(garagem.obterCarroMaisCaro());
 	}
 }
